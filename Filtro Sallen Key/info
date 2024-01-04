@@ -1,0 +1,203 @@
+{
+  "uuid": "ed3ec016ae6aa8a201a774dc586e0c4e",
+  "path": "Offline/SallenKey2Orden",
+  "name": "SallenKey2Orden",
+  "content": "",
+  "created_at": "2024-01-04 16:50:10",
+  "updated_at": "2024-01-04 16:59:05",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "a1d4b08bf12dc4ab4a90ad860a464417",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "168e50086aad4b29ad635e7425629ac8": 1,
+        "b0248eb51e084227889f2cb84eab79c4": 4,
+        "24eeb2ceca08480b92b847b6a310acda": 1,
+        "404aa9221ff94de597b8734806e7c74f": 4
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "12uF",
+          1,
+          "C0603",
+          "C1",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "S1 OUT",
+          1,
+          "HDR-M-2.54_1X1",
+          "J1",
+          {
+            "Supplier Part": "C81276",
+            "Supplier": "LCSC",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x1",
+            "puuid": "19c77e72422b43b59c26b9fa67af5de4",
+            "uuid": "404aa9221ff94de597b8734806e7c74f"
+          }
+        ],
+        [
+          "S1 IN",
+          1,
+          "HDR-M-2.54_1X1",
+          "J2",
+          {
+            "Supplier Part": "C81276",
+            "Supplier": "LCSC",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x1",
+            "puuid": "19c77e72422b43b59c26b9fa67af5de4",
+            "uuid": "404aa9221ff94de597b8734806e7c74f"
+          }
+        ],
+        [
+          "V-",
+          1,
+          "HDR-M-2.54_1X1",
+          "J3",
+          {
+            "Supplier Part": "C81276",
+            "Supplier": "LCSC",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x1",
+            "puuid": "19c77e72422b43b59c26b9fa67af5de4",
+            "uuid": "404aa9221ff94de597b8734806e7c74f"
+          }
+        ],
+        [
+          "V+",
+          1,
+          "HDR-M-2.54_1X1",
+          "J4",
+          {
+            "Supplier Part": "C81276",
+            "Supplier": "LCSC",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x1",
+            "puuid": "19c77e72422b43b59c26b9fa67af5de4",
+            "uuid": "404aa9221ff94de597b8734806e7c74f"
+          }
+        ],
+        [
+          "7.42k",
+          2,
+          "R0603",
+          "R1,R2",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "150",
+          1,
+          "R0603",
+          "R3",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "1.5k",
+          1,
+          "R0603",
+          "R4",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "LM4250",
+          1,
+          "DIP-8_L10.1-W6.3-P2.54-LS7.6-BL",
+          "U1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C69233",
+            "Manufacturer": "TI(德州仪器)",
+            "Manufacturer Part": "LM4250CN/NOPB",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "LM4250CN/NOPB",
+            "puuid": "ae2703f5182d4a06a5d8cab1e43e2a8b",
+            "uuid": "168e50086aad4b29ad635e7425629ac8"
+          }
+        ]
+      ],
+      "updateTime": 1704397810,
+      "createTime": 1704397810,
+      "histories": [],
+      "created_at": "2024-01-04 16:50:10",
+      "updated_at": "2024-01-04 16:50:10"
+    },
+    {
+      "uuid": "7c91cbd430b5359d5e1e608436b3ed24",
+      "puuid": "ed3ec016ae6aa8a201a774dc586e0c4e",
+      "title": "PCB_SallenKey2Orden",
+      "filename": "PCB_SallenKey2Orden.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "f8151fdc728a41ebbc304e11d39e5437": 1,
+        "19c77e72422b43b59c26b9fa67af5de4": 4,
+        "398691f1f785460098bbe5ee6590333c": 4,
+        "ae2703f5182d4a06a5d8cab1e43e2a8b": 1
+      },
+      "BOM": [],
+      "updateTime": 1704398345,
+      "createTime": 1704398345,
+      "histories": [],
+      "created_at": "2024-01-04 16:59:05",
+      "updated_at": "2024-01-04 16:59:05"
+    }
+  ],
+  "sort": [],
+  "title": "SallenKey2Orden",
+  "foldername": "SallenKey2Orden",
+  "schfilename": "SallenKey2Orden.json",
+  "schfilemtime": 1704397810883
+}

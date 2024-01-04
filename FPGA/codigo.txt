@@ -1,0 +1,64 @@
+//El objetivo de este trabajo es personalizar
+//la pantalla led de un FPGA para aplicaciones futuras.
+
+/* ========================================
+ * PROYECTO BASE NG-FPGA58
+ * VER. 1.0, 2017, NextGen Ltda.
+ * ========================================
+*/
+
+#include "project.h"
+#include "base.h"
+
+int main(void)
+{ 
+    // *****************************
+    // * INICIALIZACIÓN DE MÓDULOS *
+    // *****************************
+    
+    
+    // * DRIVER 7-SEGMENTOS *
+    //SSEG_Start();
+    //SSEG_SetBrightness(32,0);
+    //SSEG_SetBrightness(32,1);
+        
+    // * ENCODER *
+    //ENCOD_Start();
+    
+    // * CONVERSOR ADC *
+    //ADC_Start();
+    
+    // * CONVERSOR DAC *
+    //DAC_Start();
+    
+    // * DISPLAY LCD *
+    LCD_POWER_Write(0);
+    LCD_Start();
+ 
+    // INTERRUPCIONES GLOBALES
+    CyGlobalIntEnable;      
+      
+ciclo:
+    
+    // *******************
+    // * CICLO PRINCIPAL *
+    // *******************
+    //LCD DE 24 X 2
+    
+    //LCD_text(col,fil,MENSAJE);
+    
+    LCD_pos(0,0);
+    int j=0;
+    for(int i=0;i<24;i++){
+        LCD_pos(i,j);
+        LCD_PutChar(LCD_CUSTOM_1);
+                CyDelay(100);
+        LCD_ClearDisplay();
+        if(i%2==0){
+            j=0;
+        }else{
+            j=1;
+        }
+    }
+    
+    goto ciclo;
